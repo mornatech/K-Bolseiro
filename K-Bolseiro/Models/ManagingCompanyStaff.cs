@@ -2,7 +2,7 @@
 
 namespace K_Bolseiro.Models
 {
-    public class ManagingCompanyStaff : Person
+    public class ManagingCompanyStaff : ApplicationUser
     {
         
         public string email { get; set; }
